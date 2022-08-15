@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+    background-color:black;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    padding-top: 30px;
+    align-items:center;
+    gap: 40px;
+}
+
+.logo{
+    height: 70px;
+    
+}
+
+.foto-album{
+    width: 350px;
+}
+
+.titulo{
+    color:white;
+   }
+
+   .subtitulo{
+    color:tomato;
+   }
+
+   .descrição{
+    color: white;
+   }
+
+   .musicas-container{
+    color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    gap: 20px;
+   }
+
+    
+   .rodapé{
+    background-color: black;
+    color: white;
+   }
