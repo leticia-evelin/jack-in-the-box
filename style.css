@@ -8,10 +8,15 @@ header{
     background-color:black;
 }
 
+body{
+    background-attachment: fixed;
+    background-color: black;
+}
+
 main{
     display:flex;
     flex-direction:column;
-    background-color:black;
+    background-color: black;
     padding-top: 30px;
     align-items:center;
     gap: 40px;
@@ -48,6 +53,14 @@ main{
 
     
    .rodapé{
-    background-color: black;
-    color: white;
+     position: absolute;
+     bottom: 20px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-items: center;
+     background-color: black;
+     color: white;
+     padding-right: 25px; 
+     width: 95%;
+     
    }
